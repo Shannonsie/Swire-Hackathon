@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Video Assessment</title>
+</head>
+<body>
+    <img src="img/logo.png" alt="logo" class="logo">
+    <img src="icons/information-circle.png" class="info">
+    <img src="icons/arrow-right-on-rectangle.png" class="log-out">
+    <table class="record-title">
+        <tr>
+            <td rowspan="2"><img src="img/Ellipse 1.png" width="70px"></td>
+            <td class="name" width="750px">Jane Anderson</td>
+            <td rowspan="2" class="judul">Video Assessment Stage</td>
+        </tr>
+        <tr>
+            <td>2023012456</td>
+        </tr>
+    </table>
+    <div class="video-recording">
+        <video id="video" width="600" height="480" autoplay></video> <br>
+        <button id="startRecord">Start Recording</button>
+        <button id="stopRecord">Stop Recording</button>
+        <a id="downloadLink" download="video.webm">Submit</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

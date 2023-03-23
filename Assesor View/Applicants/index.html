@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Swire Hotels</title>
+    <link rel ="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>   
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="applicants">
+      <img src="img/logo.png" alt="Swire Hotels Logo" class="logo-applicant" />
+      <nav>
+        <ul>
+            <li> 
+                <a id="attribute" href ="#" class="profilenavigation">
+                    <img src="img/profile.png" alt="Profile">
+                    <br>
+                    <span class="nav-tem"> John Doe </span>
+                </a>
+            </li>
+
+            <li>
+                <a class="attribute" href="../index.html">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-tem"> Dashboard </span>
+                </a>
+            </li>
+            <li>
+                <a class="attribute" href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    <span class="nav-tem"> Statistics </span>
+                </a>
+
+            </li>
+            <li>
+                <a class="attribute" href="#">
+                    <i class="fas fa-user"></i>
+                    <span class="nav-tem"> Applicants List </span>
+                </a>
+
+            </li>
+            <li>
+                <a class="attribute" href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="nav-tem"> Settings </span>
+                </a>
+
+            </li>
+        </ul>
+      </nav>
+      <div class="filter">
+        <p>
+          <img
+            src="heroicons-solid/Filter alt.png"
+            alt="filter symbol"
+            class="filter-symbol"
+          />Filter
+        </p>
+      </div>
+
+      <div class="applicants-table">
+        <table cellspacing="0">
+          <thead>
+            <tr>
+              <th>Application No.</th>
+              <th>Name</th>
+              <th>Employee Type</th>
+              <th>Department</th>
+              <th>Position</th>
+              <th>Stage of Assessment</th>
+              <th>Data</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>2023012345</td>
+              <td>Jane Anderson</td>
+              <td>Full Time</td>
+              <td>Front Desk</td>
+              <td>Front Desk Manager</td>
+              <td>Video Assessment</td>
+              <td>
+                <a href="data.html"
+                  ><img src="heroicons-solid/document.png" alt="data" id="data"
+                /></a>
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012346</td>
+              <td>Stella Adams</td>
+              <td>Full-Time</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Interview</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-reviewed">Reviewed</p></td>
+            </tr>
+            <tr>
+              <td>2023012347</td>
+              <td>Beverly Addison</td>
+              <td>Full-Time</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012348</td>
+              <td>Oliver Miles</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Payroll Officer</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012349</td>
+              <td>Dave Anderson</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-reviewed">Reviewed</p></td>
+            </tr>
+            <tr>
+              <td>2023012350</td>
+              <td>Jame Smith</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-reviewed">Reviewed</p></td>
+            </tr>
+            <tr>
+              <td>2023012351</td>
+              <td>Carolina Evans</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Administrator</td>
+              <td>Interview</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-reviewed">Reviewed</p></td>
+            </tr>
+            <tr>
+              <td>2023012352</td>
+              <td>Jake Davies</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>CV Review</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012353</td>
+              <td>Dave Brown</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Administrator</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012354</td>
+              <td>Dave Williams</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Payroll Officer</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012355</td>
+              <td>Josh Thomas</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Payroll Officer</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012356</td>
+              <td>Katie Taylor</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-reviewed">Reviewed</p></td>
+            </tr>
+            <tr>
+              <td>2023012357</td>
+              <td>Taylor Williams</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012358</td>
+              <td>Dave Anderson</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-reviewed">Reviewed</p></td>
+            </tr>
+            <tr>
+              <td>2023012359</td>
+              <td>Dave Anderson</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Interview</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012360</td>
+              <td>Dave Anderson</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-in-progress">In Progress</p></td>
+            </tr>
+            <tr>
+              <td>2023012361</td>
+              <td>Dave Anderson</td>
+              <td>Internship</td>
+              <td>People & Culture</td>
+              <td>Assistant Accountant</td>
+              <td>Video Assessment</td>
+              <td>
+                <img src="heroicons-solid/document.png" alt="data" id="data" />
+              </td>
+              <td><p id="status-reviewed">Reviewed</p></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
