@@ -11,4 +11,4 @@ The project consists of three main parts:
 2. HR manager's view: This is where HR can see the recording transcript of the applicant's interview with the chatbot. To view this, go to Applicant's list --> data icon of Jane Anderson.<br>
 <img src="hr_view.png" alt="alt text" width="400"/>
 
-3. System: This is the heart of the project, where inside of it is our trained chatbot. We have finished this however some API keys are needed to try it out. If you are interested on trying this prototype out, please feel free to contact aldenchristian.business@gmail.com
+3. System: This is the heart of the project, where inside of it is our trained chatbot. However, the chatbot is still not perfect and needs further experimentation and fine tuning to work properly.
